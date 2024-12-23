@@ -8,7 +8,7 @@ For the offline models, simply run `Kmeans_and_Isolation_Forest.ipynb` and `auto
 
 # Online models
 
-The online model is fine-tuned from the pre-trained model of  COUTA (https://github.com/xuhongzuo/couta). To train the real-time **COUTA** model based on customised dataset, place the scripts into the root of the **COUTA** repository, `cd couta` and simply run `bushfire_training.py`. The model training parameters can be edited in this file and the model will be saved to `/saved_models`.
+The online model is fine-tuned from the pre-trained model of  COUTA (https://github.com/xuhongzuo/couta). To train the real-time **COUTA** model based on customised dataset, place the scripts as well as the bushfire dataset into the root of the **COUTA** repository, `cd couta` and simply run `bushfire_training.py`. The model training parameters can be edited in this file and the model will be saved to `/saved_models`.
 
 To test the model and visualise the score, run `bushfire_testing.ipynb`. 
 
